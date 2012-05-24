@@ -1,0 +1,387 @@
+/* ===== Primary Variables ================================================== */
+
+@color-dark:      #483d42;
+@color-medium:    #878c81;
+@color-light:     #f1f0f2;
+@color-contrast:  #d93b58;
+@color-anti:      #878c81;
+
+/* ===== Utility Classes ==================================================== */
+
+.rounded-corners (@radius: 1em) {
+  -webkit-border-radius: @radius;
+     -moz-border-radius: @radius;
+          border-radius: @radius;
+}
+
+.fade (@duration: 1s) {
+  -webkit-transition: all @duration ease-in-out;
+     -moz-transition: all @duration ease-in-out;
+       -o-transition: all @duration ease-in-out;
+      -ms-transition: all @duration ease-in-out;
+          transition: all @duration ease-in-out;
+}
+
+/* ===== Import basics ====================================================== */
+
+@import "normalize.less";
+@import "grid-fluid.less";
+
+/* ===== Primary Styles ========================================================
+   Author: Mark P. Lindhout
+   ========================================================================== */
+
+/* Elements */
+
+/* BLOCK ELEMENTS */
+
+address {
+}
+
+blockquote {
+  margin: 1em 0.33em;
+  padding: 0 0 0 0.66em;
+  color: lighten(@color-medium, 10%);
+  border-left: 1px solid @color-light;
+}
+
+blockquote p {
+    font-style: italic;
+}
+
+blockquote cite {
+  float: right;
+}
+
+del {
+  
+}
+
+dl, ul, ol {
+  margin: 0.66em 0;
+  padding: 0 0 0 1.33em;
+}
+
+dd, dt, li {
+  line-height: 1.33em;
+  margin: 0.33em 0;
+}
+
+dl {
+    color: @color-anti;
+}
+
+dl dd {
+}
+
+dl dt {
+    font-weight: bold;
+}
+
+ul li {
+    list-style: square;
+}
+
+ol li {
+  list-style: decimal;
+}
+
+/* Header */
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 0.66em 0;
+  font-weight: normal;
+}
+
+h1 {
+  color: @color-anti;
+}
+
+
+h2 {
+  color: @color-medium;
+}
+
+h3 {
+  color: @color-medium;
+}
+
+h4 {
+  color: @color-anti;
+}
+
+h5 {
+  font-weight: bold;
+}
+
+h6 {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 0.85em;
+}
+
+hr {
+}
+
+ins {
+}
+
+
+p {
+    margin: 0 0 0.66em 0;
+}
+
+pre, code {
+  font-family: "Andale Mono", "Monaco", monospace;
+  font-size: 0.9em;
+  line-height: 1.33em;
+}
+
+pre {
+  .rounded-corners(0.33em);
+  background-color: lighten(@color-medium, 42%);
+  border: 1px solid lighten(@color-medium, 35%);;
+  color: darken(@color-medium, 10%);
+  padding: 1em;
+  margin: 0 -1em 1.66em -1em;
+}
+
+/* TABLE ELEMENTS */
+
+table {
+    border: 0;
+    border-collapse: collapse;
+    margin-bottom: 2em;
+    margin-top: -0.25em;
+    width: 100%;
+}
+
+caption {
+    display: none
+}
+
+thead {
+    display: none
+}
+
+tbody {
+}
+
+tfoot {
+}
+
+tr {
+}
+
+th {
+    width: 200px
+}
+
+td, th {
+    padding: 1em 0;
+    text-align: left;
+}
+
+col {
+}
+
+colgroup {
+}
+
+/* INLINE ELEMENTS */
+
+a, a:link {
+    color: @color-contrast;
+}
+
+a:visited {
+  color: @color-contrast;
+}
+
+a:active, a:hover {
+    color: @color-contrast;
+}
+
+abbr, acronym {
+
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+big {
+  font-size: 125%;
+}
+
+cite {
+  font-style: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 80%;
+  color: @color-medium;
+}
+
+del {
+}
+
+dfn {
+}
+
+em, i {
+}
+
+img {
+}
+
+ins {
+}
+
+object {
+}
+
+q {
+}
+
+small {
+}
+
+sub {
+}
+
+sup {
+}
+
+time {
+}
+
+/* FORMS */
+
+form {
+
+}
+
+fieldset {
+
+}
+
+label {
+}
+
+button {
+}
+
+select {
+}
+
+textarea {
+}
+
+input {
+}
+
+/* Page Structure */
+
+body {
+  background-color: #fff;
+  color: @color-dark;
+  font-family: "Gentium", "Georgia", "Times New Roman", "Times", serif;
+  font-size: 16px;
+  line-height: 150%;
+  width: 100%;
+  min-height: 101%;
+  margin: 0 auto ;
+}
+
+#header-container {}
+
+#logo {
+  font-style: italic;
+  letter-spacing: -0.07em;
+  font-size: 3.66em;
+  padding: 0;
+  margin-top: 0.33em;
+  line-height: 2em;
+}
+
+#logo a {
+  display: block;
+  color: @color-contrast;
+  text-decoration: none;
+  .fade(0.5s);
+}
+
+#logo a:hover {
+  color: @color-anti;
+}
+
+#main-container {
+}
+
+header.wrapper, #main, footer.wrapper {
+  padding: 0;
+}
+
+
+#footer-container {
+  background-color: @color-anti;
+  border-top: 1em solid @color-dark;
+}
+
+article {
+  background-color: #fff;
+  float: left;
+  width: 100%;
+
+//  border-top: 1px solid @color-light;
+}
+
+article.archive {
+  margin: 0;
+  padding: 2em 0;
+}
+
+article.single {
+  margin: 0 0 3em 0;
+  padding: 2em 0;
+}
+
+article header time {
+	color: lighten(@color-medium, 20%);
+	text-align: right;
+  font-size: 0.85em;
+  padding-top: 0;
+}
+
+article header time .timeago {
+  display: block;
+  color: lighten(@color-medium, 20%);
+}
+
+article header .title {
+  color: darken(@color-medium, 10%);
+  line-height: 1.33em;
+}
+
+article header .title a {
+  text-decoration: none;
+  color: inherit;
+}
+
+article header .title a span {
+  color: @color-contrast;
+}
+
+article header .title a:hover {
+  color: darken(@color-contrast, 20%);
+}
+
+/* ===== Import media queries =============================================== */
+
+@import "media-queries.less";
+
+// @import "helpers.less";
+
+/* ===== Import Print CSS =================================================== */
+
+@import "print.less";

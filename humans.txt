@@ -1,0 +1,10 @@
+/* TEAM */
+  Design and Code: Mark P. Lindhout
+  Site: http://marklindhout.com
+  Twitter: @marklindhout
+  Location: Rotterdam, The Netherlands
+
+/* SITE */
+  Standards: HTML5, CSS3, LESS, MarkDown
+  Components: Modernizr, jQuery, PHP-LESS, PHP-MarkDown, HTML5 Boilerplate
+  Software: Aptana Studio 3

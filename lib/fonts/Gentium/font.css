@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Gentium';
+    src: url('genbasb-webfont.eot');
+    src: url('genbasb-webfont.eot?#iefix') format('embedded-opentype'),
+         url('genbasb-webfont.woff') format('woff'),
+         url('genbasb-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Gentium';
+    src: url('genbasbi-webfont.eot');
+    src: url('genbasbi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('genbasbi-webfont.woff') format('woff'),
+         url('genbasbi-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'Gentium';
+    src: url('genbasi-webfont.eot');
+    src: url('genbasi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('genbasi-webfont.woff') format('woff'),
+         url('genbasi-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'Gentium';
+    src: url('genbasr-webfont.eot');
+    src: url('genbasr-webfont.eot?#iefix') format('embedded-opentype'),
+         url('genbasr-webfont.woff') format('woff'),
+         url('genbasr-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
