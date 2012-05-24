@@ -3,8 +3,6 @@ Que Manilium, ab iisque M. Quodsi vultum tibi, si incessum fingeres, quo gravior
 
 Nam si beatus umquam fuisset, beatam vitam usque ad illum a Cyro extructum rogum pertulisset. Sed plane dicit quod intellegit. Non laboro, inquit, de nomine. Nemo igitur esse beatus potest. Tibi hoc incredibile, quod beatissimum. Et hunc idem dico, inquieta sed ad virtutes et ad vitia nihil interesse.
 
-Maar dat betekent hier zo veel als:
-
 1. niets
     2. help
     1. nee
